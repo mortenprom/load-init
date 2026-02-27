@@ -1,0 +1,24 @@
+{
+	"id": "e8f4647f-a47f-4e87-99d3-f1599c2d981c",
+	"createdAt": "2026-02-27T11:12:10.048Z",
+	"createdBy": "morten.prom@neptune-software.com",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN",
+			"locale": "en"
+		}
+	],
+	"name": "prom_load_init_master",
+	"description": null,
+	"fallbackLocale": "EN",
+	"application": "prom_load_init_master",
+	"ver": "26.02.27.1138",
+	"package": "b09a9aa7-4cbe-4f7d-a064-75b7df7d233c",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}

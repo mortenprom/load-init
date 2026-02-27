@@ -1,0 +1,24 @@
+{
+	"id": "cf7e7a5a-302e-4250-8191-62c241d3c4d9",
+	"createdAt": "2026-02-27T11:16:50.899Z",
+	"createdBy": "morten.prom@neptune-software.com",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN",
+			"locale": "en"
+		}
+	],
+	"name": "prom_load_init_sync",
+	"description": null,
+	"fallbackLocale": "EN",
+	"application": "prom_load_init_sync",
+	"ver": "26.02.27.1116",
+	"package": "b09a9aa7-4cbe-4f7d-a064-75b7df7d233c",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}
