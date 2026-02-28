@@ -4,15 +4,103 @@
 	"createdBy": "morten.prom@neptune-software.com",
 	"objects": [
 		{
+			"fieldNo": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
+			"fieldName": "FlexBox",
+			"fieldParent": 0,
+			"fieldType": "sap.m.FlexBox",
+			"script": "",
+			"request": [],
+			"response": [],
+			"attributes": [
+				{
+					"attribute": "renderType",
+					"grouping": "Properties",
+					"value": "Bare",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "justifyContent",
+					"grouping": "Properties",
+					"value": "Center",
+					"script": "",
+					"translation": []
+				},
+				{
+					"attribute": "styleClassMargin",
+					"grouping": "Properties",
+					"value": "sapUiMediumMargin",
+					"script": "",
+					"translation": []
+				}
+			],
+			"data": [
+				{
+					"fieldNo": "1cbb3a4d-7377-4486-cbe2-99a7cc8446b0",
+					"fieldName": "Icon",
+					"fieldParent": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
+					"fieldType": "sap.ui.core.Icon",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "src",
+							"grouping": "Properties",
+							"value": "sap-icon://fas/dragon",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "size",
+							"grouping": "Properties",
+							"value": "10rem",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "color",
+							"grouping": "Properties",
+							"value": "var(--sapPositiveColor)",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
+		},
+		{
 			"fieldNo": "c0b648d6-f2a8-4310-cb9e-daf90ae4acb7",
 			"fieldName": "App",
 			"fieldParent": 0,
 			"fieldType": "sap.m.App",
 			"script": "",
+			"disabled": true,
 			"request": [],
 			"response": [],
 			"attributes": [],
-			"data": []
+			"data": [
+				{
+					"fieldNo": "63bf1a5c-31b6-4316-a64c-5bfe173510a7",
+					"fieldName": "Page",
+					"fieldParent": "c0b648d6-f2a8-4310-cb9e-daf90ae4acb7",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "titleAlignment",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				}
+			]
 		},
 		{
 			"fieldNo": 99999,
@@ -36,7 +124,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.02.27.1116",
+	"ver": "26.02.27.1836",
 	"application": "prom_load_init_sync",
 	"title": "",
 	"description": "",

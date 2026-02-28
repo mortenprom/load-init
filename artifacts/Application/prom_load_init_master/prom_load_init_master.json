@@ -14,7 +14,7 @@
 			"attributes": [],
 			"data": [
 				{
-					"fieldNo": "e84bda3e-14a0-483c-e6bb-11f77f674ce4",
+					"fieldNo": "79d4c57c-fb1e-4b86-e151-a5d3bdb1e372",
 					"fieldName": "Page",
 					"fieldParent": "c0b648d6-f2a8-4310-cb9e-daf90ae4acb7",
 					"fieldType": "sap.m.Page",
@@ -44,7 +44,173 @@
 							"translation": []
 						}
 					],
-					"data": []
+					"data": [
+						{
+							"fieldNo": "e684e137-2527-448a-ee28-c7b62703e907",
+							"fieldName": "customHeader",
+							"fieldParent": "79d4c57c-fb1e-4b86-e151-a5d3bdb1e372",
+							"fieldType": "neptune.Aggregation",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "aggregation",
+									"grouping": "Aggregation",
+									"value": "customHeader",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "7e2803bc-28de-4820-ad14-5760bb939074",
+									"fieldName": "Bar",
+									"fieldParent": "e684e137-2527-448a-ee28-c7b62703e907",
+									"fieldType": "sap.m.Bar",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": [
+										{
+											"fieldNo": "f594e54d-104d-4916-9ffe-3c99d703fed5",
+											"fieldName": "contentRight",
+											"fieldParent": "7e2803bc-28de-4820-ad14-5760bb939074",
+											"fieldType": "neptune.Aggregation",
+											"script": "",
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "aggregation",
+													"grouping": "Aggregation",
+													"value": "contentRight",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": [
+												{
+													"fieldNo": "d4d6178d-596d-42d0-9d83-f64c8fb798da",
+													"fieldName": "btnDisplaySync",
+													"fieldParent": "f594e54d-104d-4916-9ffe-3c99d703fed5",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/btnDisplaySync/press.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Display Sync App",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "c9f5889e-8cab-413b-bc39-48664f68bdf2",
+							"fieldName": "boxIcon",
+							"fieldParent": "79d4c57c-fb1e-4b86-e151-a5d3bdb1e372",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "styleClassMargin",
+									"grouping": "Properties",
+									"value": "sapUiMediumMargin",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "1d0facc5-151f-48e3-b66a-1af30ffbd82e",
+									"fieldName": "Icon",
+									"fieldParent": "c9f5889e-8cab-413b-bc39-48664f68bdf2",
+									"fieldType": "sap.ui.core.Icon",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "src",
+											"grouping": "Properties",
+											"value": "sap-icon://fas/crow",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "size",
+											"grouping": "Properties",
+											"value": "10rem",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "color",
+											"grouping": "Properties",
+											"value": "var(--sapNegativeColor)",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								}
+							]
+						},
+						{
+							"fieldNo": "00cd7514-7272-43a3-bcf1-af2c1d85cbe1",
+							"fieldName": "syncContainer",
+							"fieldParent": "79d4c57c-fb1e-4b86-e151-a5d3bdb1e372",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
 				}
 			]
 		},
@@ -52,11 +218,11 @@
 			"fieldNo": 99999,
 			"data": [
 				{
-					"fieldNo": "afea3a11-372c-4d18-b99b-9c8ece86b17e",
-					"fieldName": "Typescript",
+					"fieldNo": "57e3ad8a-38e6-4664-bd05-8c23f60b7d15",
+					"fieldName": "Javascript",
 					"fieldParent": 99999,
-					"fieldType": "neptune.Typescript",
-					"script": "file://script/neptune.Typescript/Typescript.ts",
+					"fieldType": "neptune.Script",
+					"script": "file://script/neptune.Script/Javascript.js",
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -70,7 +236,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.02.27.1138",
+	"ver": "26.02.28.0149",
 	"application": "prom_load_init_master",
 	"title": "",
 	"description": "",
