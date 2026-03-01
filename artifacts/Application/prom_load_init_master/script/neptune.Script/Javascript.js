@@ -14,6 +14,10 @@ sap.n.Shell.attachInit((data) => {
         load: "init",
         parentObject: secondSync,
     });
+    // AppCache.Load("prom_load_third_dia", {
+    //     load: "init",
+    //     dialogShow: true,
+    // });
 });
 
 sap.n.Shell.attachBeforeDisplay((data) => {

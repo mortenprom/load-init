@@ -144,6 +144,33 @@
 														}
 													],
 													"data": []
+												},
+												{
+													"fieldNo": "92b72947-529e-441a-d18b-232f2b417ff2",
+													"fieldName": "btnDisplayThirdDialog",
+													"fieldParent": "f594e54d-104d-4916-9ffe-3c99d703fed5",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/btnDisplayThirdDialog/press.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Display Third Dialog",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
 												}
 											]
 										}
@@ -282,7 +309,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.03.01.1051",
+	"ver": "26.03.01.1705",
 	"application": "prom_load_init_master",
 	"title": "",
 	"description": "",
