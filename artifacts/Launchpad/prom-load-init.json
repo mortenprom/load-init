@@ -17,7 +17,11 @@
 		"pincodeKeyIterations": 40000,
 		"languages": [],
 		"locales": [],
-		"enhancement": ""
+		"enhancement": "",
+		"verticalMenu": false,
+		"oneLineTopMenu": true,
+		"activeAppsSide": true,
+		"activeAppsTop": false
 	},
 	"enhancement": [],
 	"name": "prom-load-init",
@@ -54,7 +58,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "26.02.27.1155",
+	"ver": "26.03.01.1052",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,

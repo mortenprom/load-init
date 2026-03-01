@@ -8,7 +8,7 @@
 	},
 	"name": "prom-load-init",
 	"description": null,
-	"ver": "26.02.27.1052",
+	"ver": "26.03.01.1052",
 	"enableCICD": true,
 	"internalReadOnly": false,
 	"oeVersion": null,
@@ -24,6 +24,12 @@
 		{
 			"id": "b59165ed-6dba-4b8b-b431-cd99d7725247",
 			"application": "prom_load_init_sync",
+			"title": "",
+			"description": ""
+		},
+		{
+			"id": "3394ef03-5fb8-4e62-88b5-59198539606c",
+			"application": "prom_load_second_sync",
 			"title": "",
 			"description": ""
 		}

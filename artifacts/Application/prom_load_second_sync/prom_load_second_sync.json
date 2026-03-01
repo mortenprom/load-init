@@ -1,7 +1,7 @@
 {
-	"id": "b59165ed-6dba-4b8b-b431-cd99d7725247",
-	"createdAt": "2026-02-27T11:16:24.089Z",
-	"createdBy": "morten.prom@neptune-software.com",
+	"id": "3394ef03-5fb8-4e62-88b5-59198539606c",
+	"createdAt": "2026-03-01T09:47:40.349Z",
+	"createdBy": "morten@neptune-software.com",
 	"objects": [
 		{
 			"fieldNo": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
@@ -47,7 +47,7 @@
 						{
 							"attribute": "src",
 							"grouping": "Properties",
-							"value": "sap-icon://fas/dragon",
+							"value": "sap-icon://fas/horse",
 							"script": "",
 							"translation": []
 						},
@@ -61,7 +61,7 @@
 						{
 							"attribute": "color",
 							"grouping": "Properties",
-							"value": "var(--sapPositiveColor)",
+							"value": "var(--sapCriticalColor)",
 							"script": "",
 							"translation": []
 						}
@@ -92,8 +92,8 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.03.01.1047",
-	"application": "prom_load_init_sync",
+	"ver": "26.03.01.1051",
+	"application": "prom_load_second_sync",
 	"title": "",
 	"description": "",
 	"enableFileStorage": false,

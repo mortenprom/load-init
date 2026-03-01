@@ -117,6 +117,33 @@
 														}
 													],
 													"data": []
+												},
+												{
+													"fieldNo": "b51db5d8-9fe6-4d2e-d3ed-cab0101c5d2d",
+													"fieldName": "btnDisplaySecond",
+													"fieldParent": "f594e54d-104d-4916-9ffe-3c99d703fed5",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/btnDisplaySecond/press.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Display Second App",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
 												}
 											]
 										}
@@ -209,6 +236,25 @@
 								}
 							],
 							"data": []
+						},
+						{
+							"fieldNo": "ae7582e2-f527-43e9-95ab-7b2af29711fe",
+							"fieldName": "secondSync",
+							"fieldParent": "79d4c57c-fb1e-4b86-e151-a5d3bdb1e372",
+							"fieldType": "sap.m.FlexBox",
+							"script": "",
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
 						}
 					]
 				}
@@ -236,7 +282,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.02.28.0149",
+	"ver": "26.03.01.1051",
 	"application": "prom_load_init_master",
 	"title": "",
 	"description": "",
