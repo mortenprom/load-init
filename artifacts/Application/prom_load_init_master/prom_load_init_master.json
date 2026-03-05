@@ -111,7 +111,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Display Sync App",
+															"value": "Load App1 in Parent",
 															"script": "",
 															"translation": []
 														}
@@ -138,7 +138,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Display Second App",
+															"value": "Load App2 in Parent",
 															"script": "",
 															"translation": []
 														}
@@ -165,7 +165,7 @@
 														{
 															"attribute": "text",
 															"grouping": "Properties",
-															"value": "Display Third Dialog",
+															"value": "Load App3 in Dialog",
 															"script": "",
 															"translation": []
 														}
@@ -309,7 +309,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.03.01.1705",
+	"ver": "26.03.05.2039",
 	"application": "prom_load_init_master",
 	"title": "",
 	"description": "",

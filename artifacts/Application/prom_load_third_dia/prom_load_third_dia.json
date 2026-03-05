@@ -32,6 +32,13 @@
 					"value": "sapUiMediumMargin",
 					"script": "",
 					"translation": []
+				},
+				{
+					"attribute": "direction",
+					"grouping": "Properties",
+					"value": "Column",
+					"script": "",
+					"translation": []
 				}
 			],
 			"data": [
@@ -67,6 +74,124 @@
 						}
 					],
 					"data": []
+				},
+				{
+					"fieldNo": "26c9988d-71c3-4a94-818e-a67ac6664b70",
+					"fieldName": "Text",
+					"fieldParent": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
+					"fieldType": "sap.m.Text",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "Loading me again should only trigger the before display event handler.",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "textAlign",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiMediumMarginTop",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "21732b06-e555-40d1-86ea-c9045e7a213e",
+					"fieldName": "Text1",
+					"fieldParent": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
+					"fieldType": "sap.m.Text",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "But the init event handler is called each time... and a new before display event handler is added on each load.",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "textAlign",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "a353ec7f-9741-4a51-b266-07c5a03f2cd0",
+					"fieldName": "Text2",
+					"fieldParent": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
+					"fieldType": "sap.m.Text",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "... and a new before display event handler is added on each load.",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "textAlign",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
+				},
+				{
+					"fieldNo": "ea7b32f3-059a-4dba-a709-9c699819eb9e",
+					"fieldName": "Text3",
+					"fieldParent": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
+					"fieldType": "sap.m.Text",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "Monsieur Prom is working on this issue...",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "textAlign",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiSmallMarginTop",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
 				}
 			]
 		},
@@ -92,7 +217,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.03.01.1636",
+	"ver": "26.03.05.2046",
 	"application": "prom_load_third_dia",
 	"title": "",
 	"description": "",

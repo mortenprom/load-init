@@ -32,6 +32,13 @@
 					"value": "sapUiMediumMargin",
 					"script": "",
 					"translation": []
+				},
+				{
+					"attribute": "direction",
+					"grouping": "Properties",
+					"value": "Column",
+					"script": "",
+					"translation": []
 				}
 			],
 			"data": [
@@ -67,6 +74,39 @@
 						}
 					],
 					"data": []
+				},
+				{
+					"fieldNo": "72a1b18a-30e8-4030-8af6-bb3a7698fc3e",
+					"fieldName": "Text",
+					"fieldParent": "648c8d17-a2d8-4323-eb19-653c6ce9b6e8",
+					"fieldType": "sap.m.Text",
+					"script": "",
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "text",
+							"grouping": "Properties",
+							"value": "Load me again to trigger the before display event handler.",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "textAlign",
+							"grouping": "Properties",
+							"value": "Center",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "styleClassMargin",
+							"grouping": "Properties",
+							"value": "sapUiSmallMarginTopBottom",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": []
 				}
 			]
 		},
@@ -92,7 +132,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.03.01.1047",
+	"ver": "26.03.05.2041",
 	"application": "prom_load_init_sync",
 	"title": "",
 	"description": "",

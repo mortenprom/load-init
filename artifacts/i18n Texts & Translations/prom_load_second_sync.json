@@ -1,0 +1,24 @@
+{
+	"id": "e1cbf2b8-fc8c-4686-9af7-842b858206a7",
+	"createdAt": "2026-03-01T09:48:36.060Z",
+	"createdBy": "morten@neptune-software.com",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN",
+			"locale": "en"
+		}
+	],
+	"name": "prom_load_second_sync",
+	"description": null,
+	"fallbackLocale": "EN",
+	"application": "prom_load_second_sync",
+	"ver": "26.03.05.2042",
+	"package": "b09a9aa7-4cbe-4f7d-a064-75b7df7d233c",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}

@@ -1,0 +1,24 @@
+{
+	"id": "3c109aa8-de95-43a0-b190-206406974e90",
+	"createdAt": "2026-03-01T15:34:25.230Z",
+	"createdBy": "morten@neptune-software.com",
+	"attributes": [],
+	"locales": [
+		{
+			"isoCode": "EN",
+			"locale": "en"
+		}
+	],
+	"name": "prom_load_third_dia",
+	"description": null,
+	"fallbackLocale": "EN",
+	"application": "prom_load_third_dia",
+	"ver": "26.03.05.2046",
+	"package": "b09a9aa7-4cbe-4f7d-a064-75b7df7d233c",
+	"active": true,
+	"deleted": false,
+	"baseModelId": null,
+	"enhancedBy": [],
+	"baseModel": null,
+	"apps": []
+}

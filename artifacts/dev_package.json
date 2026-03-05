@@ -57,7 +57,12 @@
 		{
 			"id": "6b0d9e3c-cd93-4c68-9ab1-7573ee5727c7",
 			"description": null,
-			"name": "prom-load-init"
+			"name": "prom-load-init-1"
+		},
+		{
+			"id": "04b651a8-ae58-46aa-b6ca-129d7c1a41b1",
+			"description": null,
+			"name": "prom-load-init-2"
 		}
 	],
 	"tile_layout": [],
@@ -65,7 +70,12 @@
 		{
 			"id": "ca64a35f-c771-4d94-845a-ec316ded2a5b",
 			"description": null,
-			"name": "prom-load-init"
+			"name": "prom-load-init-1"
+		},
+		{
+			"id": "0cc5dd2f-acb1-4934-9dd3-f14d64091713",
+			"description": null,
+			"name": "prom-load-init-2"
 		}
 	],
 	"tilegroup_layout": [],
@@ -93,8 +103,18 @@
 			"description": null
 		},
 		{
+			"id": "e1cbf2b8-fc8c-4686-9af7-842b858206a7",
+			"name": "prom_load_second_sync",
+			"description": null
+		},
+		{
 			"id": "cf7e7a5a-302e-4250-8191-62c241d3c4d9",
 			"name": "prom_load_init_sync",
+			"description": null
+		},
+		{
+			"id": "3c109aa8-de95-43a0-b190-206406974e90",
+			"name": "prom_load_third_dia",
 			"description": null
 		}
 	],

@@ -5,7 +5,8 @@
 	"extUserRoles": [],
 	"extUserDepartments": [],
 	"catOrder": [
-		"ca64a35f-c771-4d94-845a-ec316ded2a5b"
+		"ca64a35f-c771-4d94-845a-ec316ded2a5b",
+		"0cc5dd2f-acb1-4934-9dd3-f14d64091713"
 	],
 	"layout": [],
 	"config": {
@@ -58,7 +59,7 @@
 	"searchEnableShadeCalc": null,
 	"usedEnableShadeCalc": null,
 	"enableTrace": false,
-	"ver": "26.03.01.1052",
+	"ver": "26.03.05.1857",
 	"pwa_enable": false,
 	"pwa_customImageIos": null,
 	"pwa_customImageAndroidOld": null,
@@ -79,9 +80,15 @@
 	"cat": [
 		{
 			"id": "ca64a35f-c771-4d94-845a-ec316ded2a5b",
-			"name": "prom-load-init",
-			"title": "prom-load-init",
-			"ver": "26.02.27.1119"
+			"name": "prom-load-init-1",
+			"title": "Load Init 1",
+			"ver": "26.03.05.1856"
+		},
+		{
+			"id": "0cc5dd2f-acb1-4934-9dd3-f14d64091713",
+			"name": "prom-load-init-2",
+			"title": "Load Init 2",
+			"ver": "26.03.05.1857"
 		}
 	],
 	"roles": [],

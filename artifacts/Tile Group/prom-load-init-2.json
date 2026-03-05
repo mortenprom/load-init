@@ -1,18 +1,19 @@
 {
-	"id": "ca64a35f-c771-4d94-845a-ec316ded2a5b",
-	"createdAt": "2026-02-27T11:19:14.283Z",
-	"createdBy": "morten.prom@neptune-software.com",
+	"id": "0cc5dd2f-acb1-4934-9dd3-f14d64091713",
+	"createdAt": "2026-03-05T17:56:43.846Z",
+	"createdBy": "morten@neptune-software.com",
 	"translation": [],
 	"tilesOrder": [
-		"6b0d9e3c-cd93-4c68-9ab1-7573ee5727c7"
+		"6b0d9e3c-cd93-4c68-9ab1-7573ee5727c7",
+		"04b651a8-ae58-46aa-b6ca-129d7c1a41b1"
 	],
 	"tilegroupsOrder": [],
 	"configMessage": {},
 	"navbarGroupOrder": [],
 	"sidebarGroupOrder": [],
-	"title": "prom-load-init",
+	"title": "Load Init 2",
 	"subTitle": null,
-	"menuText": null,
+	"menuText": "LOAD 2",
 	"description": null,
 	"enableFullScreen": false,
 	"hideHeader": false,
@@ -29,7 +30,7 @@
 	"enableShadeCalc": false,
 	"numTiles": null,
 	"enableMessage": false,
-	"ver": "26.02.27.1119",
+	"ver": "26.03.05.1857",
 	"headColor": null,
 	"headTxtClr": null,
 	"subheadTxtClr": null,
@@ -43,7 +44,7 @@
 	"imageMobileHeight": null,
 	"imageTabletHeight": null,
 	"imageHeight": null,
-	"name": "prom-load-init",
+	"name": "prom-load-init-2",
 	"cardContentWidth": null,
 	"cardContentAlign": null,
 	"cardPerRow": null,
@@ -99,9 +100,15 @@
 	"tiles": [
 		{
 			"id": "6b0d9e3c-cd93-4c68-9ab1-7573ee5727c7",
-			"name": "prom-load-init",
-			"title": "prom-load-init",
-			"ver": "26.02.27.1155"
+			"name": "prom-load-init-1",
+			"title": "Load Init 1",
+			"ver": "26.03.05.1855"
+		},
+		{
+			"id": "04b651a8-ae58-46aa-b6ca-129d7c1a41b1",
+			"name": "prom-load-init-2",
+			"title": "Load Init 2",
+			"ver": "26.03.05.1856"
 		}
 	],
 	"tilegroups": [],
