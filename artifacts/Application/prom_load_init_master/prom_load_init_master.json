@@ -92,6 +92,33 @@
 											],
 											"data": [
 												{
+													"fieldNo": "8af764cf-5dde-4fec-c68a-95d52d929d81",
+													"fieldName": "btnNavigationSync",
+													"fieldParent": "f594e54d-104d-4916-9ffe-3c99d703fed5",
+													"fieldType": "sap.m.Button",
+													"script": "",
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "press",
+															"grouping": "Events",
+															"value": "Anonymous Function",
+															"script": "file://event/sap.m.Button/btnNavigationSync/press.js",
+															"language": "javascript",
+															"translation": []
+														},
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "Load App1 with Nav",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												},
+												{
 													"fieldNo": "d4d6178d-596d-42d0-9d83-f64c8fb798da",
 													"fieldName": "btnDisplaySync",
 													"fieldParent": "f594e54d-104d-4916-9ffe-3c99d703fed5",
@@ -207,9 +234,82 @@
 									"value": "sapUiMediumMargin",
 									"script": "",
 									"translation": []
+								},
+								{
+									"attribute": "direction",
+									"grouping": "Properties",
+									"value": "Column",
+									"script": "",
+									"translation": []
 								}
 							],
 							"data": [
+								{
+									"fieldNo": "0fdbe215-59b3-454b-a5f1-07978743db7d",
+									"fieldName": "Title",
+									"fieldParent": "c9f5889e-8cab-413b-bc39-48664f68bdf2",
+									"fieldType": "sap.m.Title",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "AppCache.Load: download: prom_load_init_sync",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "textAlign",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginBottom",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
+								{
+									"fieldNo": "c0f7d1d5-9f72-40e6-8438-0a74a5735295",
+									"fieldName": "Title1",
+									"fieldParent": "c9f5889e-8cab-413b-bc39-48664f68bdf2",
+									"fieldType": "sap.m.Title",
+									"script": "",
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "text",
+											"grouping": "Properties",
+											"value": "AppCache.Load: init: prom_load_second_sync",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "textAlign",
+											"grouping": "Properties",
+											"value": "Center",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "styleClassMargin",
+											"grouping": "Properties",
+											"value": "sapUiSmallMarginBottom",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": []
+								},
 								{
 									"fieldNo": "1d0facc5-151f-48e3-b66a-1af30ffbd82e",
 									"fieldName": "Icon",
@@ -292,10 +392,10 @@
 			"data": [
 				{
 					"fieldNo": "57e3ad8a-38e6-4664-bd05-8c23f60b7d15",
-					"fieldName": "Javascript",
+					"fieldName": "Init",
 					"fieldParent": 99999,
 					"fieldType": "neptune.Script",
-					"script": "file://script/neptune.Script/Javascript.js",
+					"script": "file://script/neptune.Script/Init.js",
 					"request": [],
 					"response": [],
 					"attributes": [],
@@ -309,7 +409,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.03.05.2039",
+	"ver": "26.03.18.1131",
 	"application": "prom_load_init_master",
 	"title": "",
 	"description": "",
@@ -335,7 +435,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
-	"compiledCss": null,
+	"compiledCss": "",
 	"header": "",
 	"manifest": "",
 	"globalScript": null,

@@ -132,7 +132,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "26.03.05.2041",
+	"ver": "26.03.17.1945",
 	"application": "prom_load_init_sync",
 	"title": "",
 	"description": "",
@@ -158,7 +158,7 @@
 	"ui5_url": "",
 	"cus_theme": "",
 	"css": "",
-	"compiledCss": null,
+	"compiledCss": "",
 	"header": "",
 	"manifest": "",
 	"globalScript": null,
